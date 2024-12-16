@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans-serif);
+  font-size: var(--fs-s);
+  line-height: 1.6;
+  background-color: var(--gray-white);
+  font-weight: 300;
+  background-color: var(--background);
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  line-height: 1.1;
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--fs-4xl);
+}
+
+h2 {
+  font-size: var(--fs-2xl);
+}
+
+h3 {
+  line-height: 1.4;
+}
+
+button,
+input,
+select,
+textarea {
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Pour enlever l'apparence par défaut des listes */
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Pour rendre invisible mais laisser accessible */
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.highlight {
+  background-color: var(--primary);
+  padding: 4px var(--space1x);
+  font-weight: 500;
+}
+
+.intro__title {
+  text-align: center;
+  position: top;
+}
+
+.partenaire {
+  text-align: center;
+  font-size: var(--fs-xl);
+}
+
+.partenaire__logo {
+  display: flex;
+  justify-content: center;
+  gap : 10px;
+}
+
+.partenaire__institutionnel {
+  text-align: center;
+  font-size: var(--fs-xl);
+}
+
+.partenaire__institutionnel__logo {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  gap: 10px;
+}
+
+.rectangle {
+  margin-left: 5rem;
+  margin-bottom: 20px;
+}
+
+.rectangle__texte {
+  text-align: center;
+  font-size: var(--fs-xl);
+  color: white;
+}
+
+.texte {
+  margin-left: 20px;
+}
+
+.image__titre {
+  width: 80%;
+  margin-left: 2.5rem;
+}
+
+.image {
+  width: 80%;
+  margin-left: 2.5rem;
+  margin-top: 20px;
+}
+
+.programation {
+  margin-left: 40px;
+}
+
+.titre__programme {
+  text-align: center;
+}
+
+.rectangle__contact {
+  border: 1px solid black;
+}
