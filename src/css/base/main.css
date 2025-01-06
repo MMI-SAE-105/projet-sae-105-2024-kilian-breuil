@@ -92,13 +92,6 @@ textarea {
   height: auto;
 }
 
-.texte_article {
-  color: black;
-  text-align: center;
-  font-family: var(--font-texte);
-  font-size: var(--font-size-l);
-}
-
 .sous_texte_article {
   color: var(--texte---important);
   margin-left: 30px;
@@ -115,4 +108,26 @@ textarea {
   font-family: var(--couleur-texte);
   color: black;
   font-size: var(--font-size-m);
-} 
+}
+
+.langue {
+  display: flex;
+  gap: 10px;
+}
+
+.langue_fr {
+  font-weight: bold;
+  color: #d2d2d2;
+  margin-left: auto;
+}
+
+.langue_en {
+  color: #d2d2d2;
+}
+
+.texte_article {
+  color: var(--couleur-texte);
+  margin-left: 20px;
+  font-size: var(--font-size-m);
+  font-family: var(--font-texte);
+}

@@ -4,7 +4,7 @@
 
 .hero--home {
   background-color: var(--couleur-background-header-footer);  
-  height: 10vh
+  height: 10vh;
 }
 
 .hero__title--home {
@@ -12,3 +12,5 @@
   margin: 0;
   color: white;
 }
+
+
