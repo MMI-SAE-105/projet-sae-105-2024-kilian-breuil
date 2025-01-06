@@ -143,4 +143,6 @@ textarea {
 .légende_image {
   margin-left: 39px;
   color: var(--texte---important);
+  font-size: var(--font-size-m);
+  font-family: var(--font-texte);
 }
