@@ -1,15 +1,31 @@
 .footer {
-  background-color: var(--footer);
+  background-color: var(--couleur-background-header-footer);
   color: var(--white);
-  font-size: var(--fs-s);
-
-}
-
-.footer__copyright {
-  color: black;
+  font-size: var(--fs-m);
+  
 }
 
 .footer__reseaux {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  margin-left: 19px;
+}
+
+.footer__logo {
+  margin-top: 11px;
+  margin-left: 11px;
+}
+
+.lien_footer {
+  margin-left: 19px;
+  font-size: var(--font-size-l);
+  font-family: var(--font-titre);
+  color: white;
+  font-weight: bold;
+}
+.texte_footer {
+  margin-left: 27px;
+  font-family: var(--font-texte);
+  font-size: var( --font-size-m);
+  color: var( --texte---important);
 }
