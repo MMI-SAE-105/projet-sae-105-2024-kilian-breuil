@@ -105,3 +105,14 @@ textarea {
   font-family: var(--font-texte);
   font-size: var(--font-size-m);
 }
+
+.cta {
+  margin-left: 16rem;
+  margin-right: 10px;
+  background-color: var(--mis-en-valeur-de-mot);
+  border-radius: 30px;
+  text-align: center;
+  font-family: var(--couleur-texte);
+  color: black;
+  font-size: var(--font-size-m);
+} 
