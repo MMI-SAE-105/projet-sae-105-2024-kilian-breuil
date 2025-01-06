@@ -5,12 +5,12 @@
 }
 
 body {
-  font-family: var(--font-sans-serif);
-  font-size: var(--fs-s);
+  font-family: var(--font-texte);
+  font-size: var(--font-size-m);
   line-height: 1.6;
-  background-color: var(--gray-white);
+  background-color: var(--couleur-background);
   font-weight: 300;
-  background-color: var(--background);
+  background-color: var(--couleur-background);
 }
 
 h1,
@@ -21,11 +21,13 @@ h2 {
 }
 
 h1 {
-  font-size: var(--fs-4xl);
+  font-size: var(--font-size-xxl);
+  font-family: var(--font-titre);
 }
 
 h2 {
-  font-size: var(--fs-2xl);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-sous-titre);
 }
 
 h3 {
@@ -73,68 +75,33 @@ textarea {
   font-weight: 500;
 }
 
+.titre_accueil {
+  color: var(--couleur-texte);
+}
+
 .intro__title {
-  text-align: center;
-  position: top;
-}
-
-.partenaire {
-  text-align: center;
-  font-size: var(--fs-xl);
-}
-
-.partenaire__logo {
-  display: flex;
-  justify-content: center;
-  gap : 10px;
-}
-
-.partenaire__institutionnel {
-  text-align: center;
-  font-size: var(--fs-xl);
-}
-
-.partenaire__institutionnel__logo {
-  display: flex;
-  justify-content: center;
-  height: 45px;
-  gap: 10px;
-}
-
-.rectangle {
-  margin-left: 5rem;
-  margin-bottom: 20px;
-}
-
-.rectangle__texte {
-  text-align: center;
-  font-size: var(--fs-xl);
-  color: white;
-}
-
-.texte {
+  color: var(--couleur-texte);
   margin-left: 20px;
 }
 
-.image__titre {
-  width: 80%;
-  margin-left: 2.5rem;
+.image_article {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.image {
-  width: 80%;
-  margin-left: 2.5rem;
-  margin-top: 20px;
-}
-
-.programation {
-  margin-left: 40px;
-}
-
-.titre__programme {
+.texte_article {
+  color: black;
   text-align: center;
+  font-family: var(--font-texte);
+  font-size: var(--font-size-l);
 }
 
-.rectangle__contact {
-  border: 1px solid black;
+.sous_texte_article {
+  color: var(--texte---important);
+  margin-left: 30px;
+  font-family: var(--font-texte);
+  font-size: var(--font-size-m);
 }

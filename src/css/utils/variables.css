@@ -1,20 +1,22 @@
 :root {
-  /* Colors */
-  --header: #345337;
-  --background: #d8ffc0;
-  --footer: #fbf9ea;
+/* Variable collection */
+  /* Mode 1 */
+  /* color */
+  --color: var(--texte---important);
+  --mis-en-valeur-de-mot: #fcc94d;
+  --texte---important: #aaaaaa;
+  --couleur-background: #5c7c96;
+  --couleur-background-header-footer: #6b9cbc;
+  --couleur-texte: #f4f5f0;
 
-
-  /* Text-size styles */
-  --fs-xs: 0.75rem;
-  --fs-s: 0.875rem;
-  --fs-md: 1rem;
-  --fs-lg: 1.375rem;
-  --fs-xl: 1.5rem;
-  --fs-2xl: 2.1875rem;
-  --fs-3xl: 2.625rem;
-  --fs-4xl: 3.125rem;
-
+/* typo */
+  --font-size-xxl: 36px;
+  --font-size-xl: 30px;
+  --font-size-l: 18px;
+  --font-size-m: 14px;
+  --font-titre: "K2D", sans-serif;
+  --font-subtitle: "Space Mono", monospace;
+  --font-texte: "Mulish", sans-serif;
 
   /* Espaces */
   --space1x: 10px;

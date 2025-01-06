@@ -3,7 +3,7 @@
 }
 
 .hero--home {
-  background-color: var(--header);  
+  background-color: var(--couleur-background-header-footer);  
   height: 10vh
 }
 
