@@ -147,3 +147,42 @@ textarea {
   font-size: var(--font-size-m);
   font-family: var(--font-texte);
 }
+
+.texte_contact {
+  color: var(--couleur-texte);
+  margin-left: 40px;
+  font-size: var(--font-size-m);
+  font-family: var(--font-texte);
+}
+
+.rectangle {
+  background-color: white;
+  width: 297px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 43px;
+  border: 0.5px solid black;
+}
+
+.rectangle_objet {
+  background-color: white;
+  width: 297px;
+  height: 253px;
+  border-radius: 10px;
+  margin-left: 43px;
+  border: 0.5px solid black;
+}
+
+.rectangle_bouton {
+  background-color: var(--couleur-background-header-footer);
+  width: 237px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 78px;
+  margin-bottom: 33px;
+}
+
+.mot_important {
+  color: var(--mis-en-valeur-de-mot);
+  font-weight: bold;
+}
