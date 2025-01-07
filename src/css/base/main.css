@@ -31,7 +31,10 @@ h2 {
 }
 
 h3 {
-  line-height: 1.4;
+  color: var(--couleur-texte);
+  font-size: var(--font-size-m);
+  font-family: var(--font-texte);
+  margin-left: 4rem;
 }
 
 button,
