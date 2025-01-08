@@ -2,9 +2,8 @@
 /* Variable collection */
   /* Mode 1 */
   /* color */
-  --color: var(--texte---important);
   --mis-en-valeur-de-mot: #fcc94d;
-  --texte---important: #aaaaaa;
+  --texte---important: #bababa;
   --couleur-background: #5c7c96;
   --couleur-background-header-footer: #6b9cbc;
   --couleur-texte: #f4f5f0;
